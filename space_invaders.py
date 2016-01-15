@@ -29,13 +29,13 @@ from chiplotle.tools.plottertools import instantiate_virtual_plotter
 import random
 
 # select the first plotter configured in chiplotle
-plotter = instantiate_plotters()[0]
+#~ plotter = instantiate_plotters()[0]
 
 # hint: change to a virtual plotter for testing and debug
-# plotter =  instantiate_virtual_plotter(type="HP7550A")
+plotter =  instantiate_virtual_plotter(type="HP7550A")
 
 # scale
-plotter.write(hpgl.SC([(-210,210),(-148,148)]))
+plotter.write(hpgl.SC([(-148,148),(-210,210)]))
 
 # pick up the first pen
 plotter.select_pen(1)
@@ -112,4 +112,4 @@ plotter.write(hpgl.IN())
 
 # next line of code is for software viewing. Use with virtual plotter
 # HPGL and EPS output files are saved in ~/.chiplotle/output/
-#io.view(plotter)
+io.view(plotter)
