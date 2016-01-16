@@ -1,4 +1,4 @@
-# Night-Of-The-Living-Plotters
+# Sample output previews
 
 Sample .eps output snapshots obtained using chiplotle's Virtual Plotter facility, which is the default output for all programs.
 
