@@ -8,7 +8,7 @@ A dump of some of my weird plotter related stuff, including:
 
 - **schotter.py**, python reconstruction of the 1965(?) historical plotter art ["Schotter"] (http://www.medienkunstnetz.de/works/schotter/) by Georg Nees.
 
-- **schotter.py**, python reconstruction of the 1975 historical plotter art ["Boxes"] (http://dada.compart-bremen.de/item/artwork/938) by William Kolomyjec.
+- **boxes.py**, python reconstruction of the 1975 historical plotter art ["Boxes"] (http://dada.compart-bremen.de/item/artwork/938) by William Kolomyjec.
 
 
 *NOTE: installation instructions and/or software dependencies are described at the beginning of each file.*
